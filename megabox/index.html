@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>장채연 디자이너, 메가박스 리디자인 작업물</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="menu-bar relative">
+        <div class="menu-box-1-sub-menu-bg">
+            <div class="con row">
+            </div>
+        </div>
+        <div class="con text-align-center line-height-0 relative">
+            <div class="side-bar side-bar-1 absolute-left absolute-bottom">
+                <ul class="row">
+                    <li class="cell sitemap"><a href="#" class="block"><img
+                                src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-sitemap-white.png"
+                                alt="사이트맵"></a></li>
+                    <li class="cell"><a href="#" class="block"><img
+                                src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-search-white.png"
+                                alt="서치아이콘"></a></li>
+                </ul>
+            </div>
+            <div class="side-bar side-bar-2 absolute-right absolute-bottom">
+                <ul class="row">
+                    <li class="cell"><a href="#" class="block"><img
+                                src="https://www.megabox.co.kr/static/pc/images/common/ico/ico-vip-main.png"
+                                alt="VIP"></a></li>
+                    <li class="cell"><a href="#" class="block"><img
+                                src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-mymega-white.png"
+                                alt="마이페이지"></a></li>
+                </ul>
+            </div>
+            <a href="#" class="megabox-logo absolute-middle absolute-center"><img
+                    src="https://img.megabox.co.kr/static/pc/images/common/ci/logo-white.png" alt="로고"></a>
+            <div class="menu-box inline-block">
+                <div class="row">
+                    <div class="cell">
+                        <a href="#" class="block"><img
+                                src="https://img.megabox.co.kr/static/pc/images/common/gnb/gnb-txt-movie-white.png"
+                                alt="영화"></a>
+                        <ul class="row">
+                            <li class="cell"><a href="#" class="block">전체영화</a></li>
+                            <li class="cell"><a href="#" class="block">큐레이션</a></li>
+                            <li class="cell"><a href="#" class="block">무비포스트</a></li>
+                        </ul>
+                    </div>
+                    <div class="cell">
+                        <a href="#" class="block"><img
+                                src="https://img.megabox.co.kr/static/pc/images/common/gnb/gnb-txt-reserve-white.png"
+                                alt="예매"></a>
+                        <ul class="row">
+                            <li class="cell"><a href="#" class="block">빠른예매</a></li>
+                            <li class="cell"><a href="#" class="block">상영시간표</a></li>
+                            <li class="cell"><a href="#" class="block">더 부티크 프라이빗 예매</a></li>
+                        </ul>
+                    </div>
+                    <div class="cell">
+                        <a href="#" class="block"><img
+                                src="https://img.megabox.co.kr/static/pc/images/common/gnb/gnb-txt-theater-white.png"
+                                alt="극장"></a>
+                        <ul class="row">
+                            <li class="cell"><a href="#" class="block">전체극장</a></li>
+                            <li class="cell"><a href="#" class="block">특별관</a></li>
+                        </ul>
+                    </div>
+                    <div class="cell">
+                        <a href="#" class="block"><img
+                                src="https://img.megabox.co.kr/static/pc/images/common/gnb/gnb-txt-event-white.png"
+                                alt="이벤트"></a>
+                        <ul class="row">
+                            <li class="cell"><a href="#" class="block">진행중 이벤트</a></li>
+                            <li class="cell"><a href="#" class="block">지난 이벤트</a></li>
+                            <li class="cell"><a href="#" class="block">당첨자발표</a></li>
+                        </ul>
+                    </div>
+                    <div class="cell"><a href="#" class="block megabox-store"><img
+                                src="https://img.megabox.co.kr/static/pc/images/common/gnb/gnb-txt-store-white.png"
+                                alt="스토어"></a></div>
+                    <div class="cell">
+                        <a href="#" class="block"><img
+                                src="https://img.megabox.co.kr/static/pc/images/common/gnb/gnb-txt-benefit-white.png"
+                                alt="혜택"></a>
+                        <ul class="row">
+                            <li class="cell"><a href="#" class="block">메가박스 멤버십</a></li>
+                            <li class="cell"><a href="#" class="block">제휴/할인</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="total-bg"></div>
+            <div class="total-menu-box">
+                <div class="total_wrap">
+                    <div class="total-close-btn"></div>
+                    <ul class="total_gnb">
+                        <li>
+                            <a href="#">영화</a>
+                            <ul class="sub">
+                                <li><a href="#">전체영화</a></li>
+                                <li><a href="#">큐레이션</a></li>
+                                <li><a href="#">무비포스트</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">예매</a>
+                            <ul class="sub">
+                                <li><a href="#">빠른예매</a></li>
+                                <li><a href="#">상영시간표</a></li>
+                                <li><a href="#">더 부티크 프라이빗 예매</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">극장</a>
+                            <ul class="sub">
+                                <li><a href="#">전체주장</a></li>
+                                <li><a href="#">특별관</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">이벤트</a>
+                            <ul class="sub">
+                                <li><a href="#">진행중 이벤트</a></li>
+                                <li><a href="#">지난 이벤트</a></li>
+                                <li><a href="#">당첨자 발표</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">스토어</a>
+                        </li>
+                        <li>
+                            <a href="#">혜택</a>
+                            <ul class="sub">
+                                <li><a href="#">메가박스 멤버십</a></li>
+                                <li><a href="#">제휴/할인</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="main-slider">
+        <div class="item video">
+            <span class="main-vd-sub"> BOX OFFICE 1위</span>
+            <video class="slide-video slide-media"
+                src="https://s3550.smartucc.kr/encodeFile/3550/2020/10/27/3cdfa7f886268e069dad1f78062bbe63_W.mp4"
+                autoplay loop muted playsinline></video>
+        </div>
+
+        <div class="item video">
+            <span class="main-vd-sub"> BOX OFFICE 2위</span>
+            <video class="slide-video slide-media"
+                src="https://s3550.smartucc.kr/encodeFile/3550/2020/11/03/268b191fd107b629fc7a884a7e1570c0_W.mp4"
+                autoplay loop muted playsinline></video>
+        </div>
+
+        <div class="item video">
+            <span class="main-vd-sub"> BOX OFFICE 3위</span>
+            <video class="slide-video slide-media"
+                src="https://s3550.smartucc.kr/encodeFile/3550/2020/10/26/36a031c8c42a19cd7176727f65ccadbe_W.mp4"
+                autoplay loop muted playsinline></video>
+        </div>
+
+        <div class="item video video-last">
+            <span class="main-vd-sub"> BOX OFFICE 4위</span>
+            <video class="slide-video slide-media"
+                src="http://s3550.smartucc.kr/encodeFile/3550/2020/11/12/07dd29b12f87f720d955ee75cc1ee8f5_W.mp4"
+                autoplay loop muted playsinline></video>
+        </div>
+    </section>
+
+    <div class="middle-search-menu">
+        <div class="search-menu">
+            <form class="search-box flex flex-ai-c" onsubmit="return false;">
+                <input type="text" placeholder="영화명을 입력해 주세요">
+                <span class="btn-search"><i class="fas fa-search"></i></span>
+            </form>
+
+            <div class="time-table">
+                <div class="table">
+                    <img src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-schedule-main.png" alt="시간표">
+                    <div class="time-table-sub">상영시간표</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="search-menu-2">
+            <div class="box-office">
+                <img src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-boxoffice-main.png" alt="박스오피스">
+                <div class="bo-sub">박스오피스</div>
+            </div>
+            <div class="quick-book">
+                <img src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-quick-reserve-main.png" alt="빠른예매">
+                <div class="qb-sub">빠른 예매</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="middle-box">
+        <div class="slider-box-2-title">
+            <div class="sb-2-title con">이벤트</div>
+        </div>
+        <div class="slider-box-2 con">
+            <div class="slider-arrows-2">
+                <div class="slick-btn slick-btn-prev"><img
+                        src="https://www.megabox.co.kr/static/pc/images/main/btn-benefit-slider-prev.png" alt="슬릭버튼좌">
+                </div>
+                <div class="slick-btn slick-btn-next"><img
+                        src="https://www.megabox.co.kr/static/pc/images/main/btn-benefit-slider-next.png" alt="슬릭버튼우">
+                </div>
+            </div>
+            <div class="slick">
+                <div class="item item-title">
+                    <div class="bg"
+                        style="background-image:url(https://img.megabox.co.kr/SharedImg/BnftMng/2020/11/11/yQJwEL7cG0In1ZNgkxI8EPw0KL67Hfq3.jpg);">
+                    </div>
+                </div>
+                <div class="item item-pic">
+                    <div class="bg"
+                        style="background-image:url(https://img.megabox.co.kr/SharedImg/BnftMng/2020/11/11/pCUhfSuHFwqNV5MhY0Qp3MLKQZoJa1Gl.jpg);">
+                    </div>
+                </div>
+                <div class="item item-title">
+                    <div class="bg"
+                        style="background-image:url(https://img.megabox.co.kr/SharedImg/BnftMng/2020/10/29/MlAGW38dxZ98lP2P0QlPNdzy41hT4zLX.jpg);">
+                    </div>
+                </div>
+                <div class="item item-pic">
+                    <div class="bg"
+                        style="background-image:url(https://img.megabox.co.kr/SharedImg/BnftMng/2020/10/29/DQOmV0iHjNFzeA6NV5dgZWwVHG0g621C.jpg);">
+                    </div>
+                </div>
+                <div class="item item-title">
+                    <div class="bg"
+                        style="background-image:url(https://img.megabox.co.kr/SharedImg/BnftMng/2020/10/28/P0Dtdv9GnNIeTFKDm1Ri8og8uqLaiyn1.jpg);">
+                    </div>
+                </div>
+                <div class="item item-pic">
+                    <div class="bg"
+                        style="background-image:url(https://img.megabox.co.kr/SharedImg/BnftMng/2020/10/28/sCtnhKnGhAXdqUW09FDWQ5a6rusGq0ow.png);">
+                    </div>
+                </div>
+                <div class="item item-title">
+                    <div class="bg"
+                        style="background-image:url(https://img.megabox.co.kr/SharedImg/BnftMng/2020/10/26/z2FH6E7rAYnXSgnhmNE3GKO9ioSZndxd.jpg);">
+                    </div>
+                </div>
+                <div class="item item-pic">
+                    <div class="bg"
+                        style="background-image:url(https://img.megabox.co.kr/SharedImg/BnftMng/2020/10/26/uTNNpGQweNjPtcAggJ8ZItEniCWqjiqW.png);">
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-box">
+                <div class="store-title">TODAY'S MENU</div>
+                <div class="store">
+                    <img src="https://img.megabox.co.kr/SharedImg/store/2020/03/17/4IdTDK4CS2PxFmMMJTozULSROsPzufHw_280.png"
+                        alt="스토어"><a href="https://www.megabox.co.kr/store"></a>
+                </div>
+                <div class="store-menu-sub store-menu-sub-1">즉석구이콤보</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="center-menu-bg">
+        <div class="ct-menu-bg con">
+            <div class="center-menu flex flex-wrap">
+                <div class="vip">
+                    <div class="vip-img"><img
+                            src="https://www.megabox.co.kr/static/pc/images/common/ico/ico-vip-main.png" alt="VIP">
+                    </div>
+                    <div class="vip-name ct-name">VIP LOUNGE</div>
+                </div>
+                <div class="membership">
+                    <div class="ms-img"><img
+                            src="https://www.megabox.co.kr/static/pc/images/common/ico/ico-membership-main.png"
+                            alt="멤버십"></div>
+                    <div class="ms-name ct-name">멤버십</div>
+                </div>
+                <div class="discount-card">
+                    <div class="dc-img"><img
+                            src="https://www.megabox.co.kr/static/pc/images/common/ico/ico-card-main.png" alt="카드">
+                    </div>
+                    <div class="dc-name ct-name">할인카드</div>
+                </div>
+                <div class="event-pg">
+                    <div class="event-img"><img
+                            src="https://www.megabox.co.kr/static/pc/images/common/ico/ico-event-main.png" alt="이벤트">
+                    </div>
+                    <div class="event-name ct-name">이벤트</div>
+                </div>
+                <div class="store-pg">
+                    <div class="store-img"><img
+                            src="https://www.megabox.co.kr/static/pc/images/common/ico/ico-store-main.png" alt="스토어">
+                    </div>
+                    <div class="store-name ct-name">스토어</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="curation-title">
+        <div class="cr-title con">큐레이션</div>
+    </div>
+    <div class="curation-background">
+        <div class="curation-bg con">
+            <div class="curation flex flex-jc-c">
+                <ul class="flex flex-jc-c">
+                    <li>
+                        <a href="#" class="block img-box">
+                            <span class="os-bg"
+                                style="background-image:url(https://raw.githubusercontent.com/ChaeYeon3241/my-img/master/%EB%94%94%20%EC%98%A4%EC%BC%80%EC%8A%A4%ED%8A%B8%EB%9D%BC%20%EB%B0%B0%EA%B2%BD%EC%82%AC%EC%A7%84.png);">
+                            </span>
+                            <span
+                                style="background-image:url(https://img.megabox.co.kr/SharedImg/2020/11/05/3yjokF1tp7xr5e6UNNAdiuIQwzEBfONz_420.jpg);"
+                                class="os-fg">
+                                <img src="https://www.megabox.co.kr/static/pc/images/main/bg-bage-curation-classic.png"
+                                    alt="큐레이션클래식" class="os-img">
+                            </span>
+                        </a>
+                        <span class="os-sub">
+                            <p class="os-img-sub1">[Live] 리그 오브 레전드: 디 오케스트라</p>
+                            <p class="os-img-sub2">***코로나 사회적 거리두기 2단계 격상으로 공연 취소***</p>
+                            <p class="os-img-sub3">스크린으로 만나는 리그 오브 레전드 라이브!<br>메가박스 클래식 소사이어티 동시 생중계!</p>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="#" class="block img-box">
+                            <span
+                                style="background-image:url(https://img.megabox.co.kr/SharedImg/2020/09/18/tqDCRts11QsDH2VnDIn8ezNoE6jd6BPd_1100.jpg);"
+                                class="bab-bg"></span>
+                            <span
+                                style="background-image:url(https://img.megabox.co.kr/SharedImg/2020/09/21/JBmB6CiUMUCIXRRljoSHdGXIXws8CVKm_1280.jpg);"
+                                class="bab-fg">
+                                <img src="https://www.megabox.co.kr/static/pc/images/main/bg-bage-curation-film-m.png"
+                                    alt="큐레이션_밥정" class="f-img">
+                            </span>
+                        </a>
+                        <span class="os-sub">
+                            <p class="os-img-sub1">“더늦기 전에 당신과 나누고 싶습니다”</p>
+                            <p class="os-img-sub2">진심으로 눌러 담은 그리운 인생의 참맛</p>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="#" class="block img-box">
+                            <span
+                                style="background-image:url(https://img.megabox.co.kr/SharedImg/2020/11/12/vRMGAaISHd0ZHRBJz6CbBzZ7nZxfvJOV_1100.jpg);"
+                                class="dc-bg"></span>
+                            <span
+                                style="background-image:url(https://img.megabox.co.kr/SharedImg/2020/11/10/Tk9aZrd1yFOyZ5crpWdKwsbpVIk7agjm_1280.jpg);"
+                                class="dc-fg">
+                                <img src="https://www.megabox.co.kr/static/pc/images/main/bg-bage-curation-film-m.png"
+                                    alt="큐레이션_그리고춤을" class="f-img">
+                            </span>
+                        </a>
+                        <span class="os-sub">
+                            <p class="os-img-sub1">“이제, 네가 추고 싶은 춤을 춰”</p>
+                            <p class="os-img-sub2">섬세하고 우아한 춤을 추는 메라비와<br>상반된 카리스마와 에너지를 가진 이라클리의 선의의 경쟁!</p>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="#" class="block img-box">
+                            <span
+                                style="background-image:url(https://img.megabox.co.kr/SharedImg/2020/10/23/It2vdn8w8E8uLIYUGBVIvvau2yks9Z5y_1100.jpg);"
+                                class="fab-bg"></span>
+                            <span
+                                style="background-image:url(https://img.megabox.co.kr/SharedImg/2020/10/06/QEsp5mz6kWHBGWs2KV86J7jO4Y7CozHz_1280.jpg);"
+                                class="fab-fg">
+                                <img src="https://www.megabox.co.kr/static/pc/images/main/bg-bage-curation-film-m.png"
+                                    alt="큐레이션_페뷸러스" class="f-img">
+                            </span>
+                        </a>
+                        <span class="os-sub">
+                            <p class="os-img-sub1">다름을 인정하는 순간 진짜 친구가 되는 거야</p>
+                            <p class="os-img-sub2">SNS시대를 살아가는 우리들을 위한 2020 어썸 우먼 무비!</p>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="#" class="block img-box">
+                            <span
+                                style="background-image:url(https://img.megabox.co.kr/SharedImg/2020/10/28/x0POuoXYUVD2TfjKBQULL7oXkoWxBTfg_1100.jpg);"
+                                class="wp-bg"></span>
+                            <span
+                                style="background-image:url(https://img.megabox.co.kr/SharedImg/2020/10/14/fPnJoivKqvW7rX572iE3zbkMAbx8t87s_1280.jpg);"
+                                class="wp-fg">
+                                <img src="https://www.megabox.co.kr/static/pc/images/main/bg-bage-curation-film-m.png"
+                                    alt="큐레이션_위플래쉬" class="f-img">
+                            </span>
+                        </a>
+                        <span class="os-sub">
+                            <p class="os-img-sub1">"박자가 안 맞잖아, 다시!"</p>
+                            <p class="os-img-sub2">최고의 연주를 위한 완벽한 스윙이 시작된다!</p>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="movie-station">
+        <div class="movie-st con">
+            <div class="mv-station-title">
+                메가박스 안내
+            </div>
+            <div class="mv-station">
+                <div class="mv-st">
+                    <img src="https://raw.githubusercontent.com/ChaeYeon3241/mb_st_img/master/db-black.png"
+                        alt="hover effect">
+                    <img src="https://raw.githubusercontent.com/ChaeYeon3241/mb_st_img/master/db.png"
+                        alt="hover effect">
+                </div>
+                <div class="mv-st">
+                    <img src="https://raw.githubusercontent.com/ChaeYeon3241/mb_st_img/master/pv-tb-black.png"
+                        alt="hover effect">
+                    <img src="https://raw.githubusercontent.com/ChaeYeon3241/mb_st_img/master/pv-tb.png"
+                        alt="hover effect">
+                </div>
+                <div class="mv-st">
+                    <img src="https://raw.githubusercontent.com/ChaeYeon3241/mb_st_img/master/tb-black.png"
+                        alt="hover effect">
+                    <img src="https://raw.githubusercontent.com/ChaeYeon3241/mb_st_img/master/tb.png"
+                        alt="hover effect">
+                </div>
+                <div class="mv-st">
+                    <img src="https://raw.githubusercontent.com/ChaeYeon3241/mb_st_img/master/mx-black.png"
+                        alt="hover effect">
+                    <img src="https://raw.githubusercontent.com/ChaeYeon3241/mb_st_img/master/mx.png"
+                        alt="hover effect">
+                </div>
+                <div class="mv-st">
+                    <img src="https://raw.githubusercontent.com/ChaeYeon3241/mb_st_img/master/CF_black.png"
+                        alt="hover effect">
+                    <img src="https://raw.githubusercontent.com/ChaeYeon3241/mb_st_img/master/CF.png"
+                        alt="hover effect">
+                </div>
+                <div class="mv-st">
+                    <img src="https://raw.githubusercontent.com/ChaeYeon3241/mb_st_img/master/KIDS_black.png"
+                        alt="hover effect">
+                    <img src="https://raw.githubusercontent.com/ChaeYeon3241/mb_st_img/master/KIDS.png"
+                        alt="hover effect">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="notice">
+        <div class="nt-bg con">
+            <div class="nt nt-1">
+                <div class="nt-left">메가박스</div>
+                <div class="nt-center nt-center-title">[클래식 중계]</div>
+                <div class="nt-center nt-center-sub">[메가박스] 클래식 라이브 - 2021 빈 필하모닉 신년음악회</div>
+            </div>
+            <div class="nt nt-2">
+                <div class="nt-center nt-center-right">2020.11.26</div>
+                <div class="nt-right nt-right-more">더보기</div>
+                <div class="nt-right nt-right-icon"><img
+                        src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-arr-right-gray.png" alt="더보기아이콘">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-menu">
+        <div class="bt-menu con">
+            <div class="bt-mn">
+                <div class="bt-box">
+                    <div class="bt-cell">
+                        <img src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-main-customer.png"
+                            alt="고객센터">
+                        <span>고객센터</span>
+                    </div>
+                </div>
+                <div class="bt-box">
+                    <div class="bt-cell">
+                        <img src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-main-faq.png" alt="질문">
+                        <span>자주 묻는 질문</span>
+                    </div>
+                </div>
+                <div class="bt-box">
+                    <div class="bt-cell">
+                        <img src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-main-qna.png" alt="1대1문의">
+                        <span>1:1 문의</span>
+                    </div>
+                </div>
+                <div class="bt-box">
+                    <div class="bt-cell">
+                        <img src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-main-group.png" alt="단체대관">
+                        <span>단체/대관 문의</span>
+                    </div>
+                </div>
+                <div class="bt-box">
+                    <div class="bt-cell">
+                        <img src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-main-lost.png" alt="분실물">
+                        <span>분실물 문의/접수</span>
+                    </div>
+                </div>
+                <div class="bt-box">
+                    <div class="bt-cell">
+                        <img src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-main-boutique.png"
+                            alt="프라이빗관">
+                        <span>더 부티크 프라이빗<br>대관예매</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-one">
+            <div class="ft-one con">
+                <div class="ft-1 ft-menu">
+                    <div class="ft-item">회사소개</div>
+                    <div class="ft-item">인재채용</div>
+                    <div class="ft-item">사회공헌</div>
+                    <div class="ft-item">제휴/광고/부대사업문의</div>
+                    <div class="ft-item">이용약관</div>
+                    <div class="ft-item">개인정보처리방침</div>
+                    <div class="ft-item">윤리경영</div>
+                </div>
+                <div class="ft-1 ft-find">
+                    <img src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-footer-search.png" alt="서치아이콘">
+                    <span>극장찾기</span>
+                </div>
+            </div>
+        </div>
+        <div class="dt-search">
+            <div class="dts-wrap">
+                <p class="dts-title">메가박스 극장 찾기</p>
+                <ul class="dts-box">
+                    <li>
+                        <p class="dts-loca">서울</p>
+                        <div class="dts-area">
+                            <a href="#">강남</a>
+                            <a href="#">강남대로(씨티)</a>
+                            <a href="#">강동</a>
+                            <a href="#">군자</a>
+                            <a href="#">동대문</a>
+                            <a href="#">마곡</a>
+                            <a href="#">목동</a>
+                            <a href="#">상봉</a>
+                            <a href="#">상암월드컵경기장</a>
+                            <a href="#">성수</a>
+                            <a href="#">센트럴</a>
+                            <a href="#">송파파크하비오</a>
+                            <a href="#">신촌</a>
+                            <a href="#">이수</a>
+                            <a href="#">창동</a>
+                            <a href="#">코엑스</a>
+                            <a href="#">홍대</a>
+                            <a href="#">화곡</a>
+                            <a href="#">ARTNINE</a>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="dts-loca">경기</p>
+                        <div class="dts-area">
+                            <a href="#">고양스타필드</a>
+                            <a href="#">김포한강신도시</a>
+                            <a href="#">남양주</a>
+                            <a href="#">남양주현대아울렛 스페이스원</a>
+                            <a href="#">동탄</a>
+                            <a href="#">미사강변</a>
+                            <a href="#">백석</a>
+                            <a href="#">별내</a>
+                            <a href="#">부천스타필드시티</a>
+                            <a href="#">분당</a>
+                            <a href="#">수원</a>
+                            <a href="#">수원남문</a>
+                            <a href="#">시흥배곧</a>
+                            <a href="#">안산중앙</a>
+                            <a href="#">안성스타필드</a>
+                            <a href="#">양주</a>
+                            <a href="#">영통</a>
+                            <a href="#">용인기흥</a>
+                            <a href="#">용인테크노밸리</a>
+                            <a href="#">의정부민락</a>
+                            <a href="#">일산</a>
+                            <a href="#">일산벨라시타</a>
+                            <a href="#">킨텍스</a>
+                            <a href="#">파주금촌</a>
+                            <a href="#">파주운정</a>
+                            <a href="#">파주출판도시</a>
+                            <a href="#">하남스타필드</a>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="dts-loca">인천</p>
+                        <div class="dts-area">
+                            <a href="#">검단</a>
+                            <a href="#">송도</a>
+                            <a href="#">영종</a>
+                            <a href="#">인천논현</a>
+                            <a href="#">청라지젤</a>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="dts-loca">대전/충청/세종</p>
+                        <div class="dts-area">
+                            <a href="#">공주</a>
+                            <a href="#">논산</a>
+                            <a href="#">대전</a>
+                            <a href="#">대전유성</a>
+                            <a href="#">대전중앙로</a>
+                            <a href="#">대전현대아울렛</a>
+                            <a href="#">세종(조치원)</a>
+                            <a href="#">세종나성</a>
+                            <a href="#">세종청사</a>
+                            <a href="#">오창</a>
+                            <a href="#">제천</a>
+                            <a href="#">진천</a>
+                            <a href="#">천안</a>
+                            <a href="#">청주사창</a>
+                            <a href="#">충주</a>
+                            <a href="#">홍성내포</a>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="dts-loca">부산/대구/경상</p>
+                        <div class="dts-area">
+                            <a href="#">경북도청</a>
+                            <a href="#">경산하양</a>
+                            <a href="#">구미강동</a>
+                            <a href="#">김천</a>
+                            <a href="#">남포항</a>
+                            <a href="#">대구(칠성로)</a>
+                            <a href="#">대구신세계(동대구)</a>
+                            <a href="#">대구이시아</a>
+                            <a href="#">덕천</a>
+                            <a href="#">마산</a>
+                            <a href="#">문경</a>
+                            <a href="#">부산극장</a>
+                            <a href="#">부산대</a>
+                            <a href="#">북대구(칠곡)</a>
+                            <a href="#">삼천포</a>
+                            <a href="#">양산</a>
+                            <a href="#">양산라피에스타</a>
+                            <a href="#">울산</a>
+                            <a href="#">정관</a>
+                            <a href="#">창원</a>
+                            <a href="#">창원내서</a>
+                            <a href="#">해운대(장산)</a>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="dts-loca">광주/전라</p>
+                        <div class="dts-area">
+                            <a href="#">광주상무</a>
+                            <a href="#">광주하남</a>
+                            <a href="#">목포하당(포르모)</a>
+                            <a href="#">송천</a>
+                            <a href="#">순천</a>
+                            <a href="#">여수웅천</a>
+                            <a href="#">전대(광주)</a>
+                            <a href="#">전주혁신</a>
+                            <a href="#">첨단</a>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="dts-loca">강원</p>
+                        <div class="dts-area">
+                            <a href="#">남춘천</a>
+                            <a href="#">속초</a>
+                            <a href="#">원주</a>
+                            <a href="#">원주센트럴</a>
+                        </div>
+                    </li>
+                </ul>
+                <button class="dts-btn">극장찾기 버튼</button>
+            </div>
+        </div>
+        <div class="footer-two">
+            <div class="ft-two con">
+                <div class="ft-2">
+                    <div class="ft-logo"><img
+                            src="https://img.megabox.co.kr/static/pc/images/common/ci/logo-opacity.png" alt="회색로고">
+                    </div>
+                    <div class="ft-sub">
+                        <div class="ft-ex">서울특별시 성동구 왕십리로 50, 6층(성수동 1가, 메가박스스퀘어) ARS 1544-0070</div>
+                        <div class="ft-ex">대표자명 김진선 · 개인정보보호책임자 조상연 · 사업자등록번호 211-86-59478 · 통신판매업신고번호 제 833호</div>
+                        <div class="ft-ex">COPYRIGHT © MegaboxJoongAng, Inc. All rights reserved</div>
+                    </div>
+                </div>
+                <div class="ft-2 ft-social">
+                    <div class="ft-sns"><img src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-twitter.png"
+                            alt="트위터"></div>
+                    <div class="ft-sns"><img
+                            src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-facebook.png" alt="페이스북">
+                    </div>
+                    <div class="ft-sns"><img
+                            src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-instagram.png" alt="인스타그램">
+                    </div>
+                    <div class="ft-sns"><img
+                            src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-googleplay.png" alt="구글">
+                    </div>
+                    <div class="ft-sns"><img
+                            src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-appstore.png" alt="애플"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
